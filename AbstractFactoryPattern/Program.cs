@@ -48,7 +48,7 @@ namespace AbstractFactoryPattern
             //IFactory factory = new AccessFactory();
 
             IUser iuC = factory.CreateUser();
-            iuC.Insert(user);
+            iuC.Insert(userC);
             iuC.GetUser(1);
 
             IDepartment ideptC = factory.CreateDepartment();
